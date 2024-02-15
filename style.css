@@ -1,12 +1,12 @@
 body {
   height: 100vh;
-  background: #9e8e8e;
+  background: #ffdba4;
 }
 
 @font-face {
-  font-family: 'Atomic';
-  src: local('Atomic'),
-  url('./source/d_Docteur\ Atomic.ttf');
+  font-family: 'Discet';
+  src: local('Discet'),
+  url('./source/Disket-Mono-Bold.ttf');
   font-style: normal;
   font-weight: normal;
 }
@@ -71,13 +71,13 @@ justify-content: end;
 
 }
 .header_item {
-  border: 2px solid rgb(194, 97, 7);
+  border: 2px solid #B474AA;
   border-radius: 10%;
   width: 100px;
   margin-right: 20px;
   margin-top: 10px;
   font-size: large;
-  color: #974610;
+  color: #B474AA;
   padding: 10px;
   text-align: center;
 }
@@ -95,11 +95,11 @@ justify-content: end;
 .title_head {
   width: 500px;
   text-align: center;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
   font-size: 6em;
-  font-family: 'Atomic';
-  line-height: 1.5;
-  background: linear-gradient(100deg, red, yellow, red);
+  font-family: 'Discet';
+  line-height: 1;
+  background: radial-gradient(30% 48%, #752668, #f00505, #B474AA);
   background-clip: text;
   color: transparent;
   
